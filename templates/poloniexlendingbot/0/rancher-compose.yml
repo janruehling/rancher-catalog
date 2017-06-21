@@ -7,31 +7,31 @@ catalog:
   maximum_rancher_version: v1.6.2 # The maximum version of Rancher that supports the template, v1.0.1 and 1.0.1 are acceptable inputs
   upgrade_from: 1.0.0 # The previous versions that this template can be upgraded from
   questions: #Used to request user input for configuration options
-    - variable: API_KEY
-      label: Poloniex API key
-      description: |
-        Enter your API key from Poloniex
-      required: true
-      type: string
-    - variable: API_SECRET
-      label: Poloniex API secret
-      description: |
-        Enter your API secret from Poloniex
-      required: true
-      type: string
-    - variable: USE_TELEGRAM
-      label: Do you want to use Telegram?
-      description: |
-        Set true or false
-      type: boolean
-      default: false
-    - variable: TELEGRAM_BOT_ID
-      label: Telegram Bot ID
-      description: |
-        Enter the bot ID that you got from Telegram
-      type: string
-    - variable: TELEGRAM_CHAT_IDS
-      label: Telegram chat ids
-      description: |
-        Enter the chat ids as a comma-separated list
-      type: string
+    # - variable: API_KEY
+    #   label: Poloniex API key
+    #   description: |
+    #     Enter your API key from Poloniex
+    #   required: true
+    #   type: string
+    # - variable: API_SECRET
+    #   label: Poloniex API secret
+    #   description: |
+    #     Enter your API secret from Poloniex
+    #   required: true
+    #   type: string
+    # - variable: USE_TELEGRAM
+    #   label: Do you want to use Telegram?
+    #   description: |
+    #     Set true or false
+    #   type: boolean
+    #   default: false
+    # - variable: TELEGRAM_BOT_ID
+    #   label: Telegram Bot ID
+    #   description: |
+    #     Enter the bot ID that you got from Telegram
+    #   type: string
+    # - variable: TELEGRAM_CHAT_IDS
+    #   label: Telegram chat ids
+    #   description: |
+    #     Enter the chat ids as a comma-separated list
+    #   type: string

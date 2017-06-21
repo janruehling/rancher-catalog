@@ -2,7 +2,7 @@ version: '2'
 services:
   bot:
    image: janruehling/poloniexlendingbot
-   restart: always
+   # restart: always
    working_dir: /usr/src/app
    ports:
       - "0.0.0.0:8000:8000"

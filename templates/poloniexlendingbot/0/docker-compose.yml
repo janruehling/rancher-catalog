@@ -3,11 +3,9 @@ services:
   bot:
    image: janruehling/poloniexlendingbot
    # restart: always
-   working_dir: /usr/src/app
-   ports:
-      - "0.0.0.0:8000:8000"
-   volumes:
-      - "/usr/src/app"
+   # working_dir: /usr/src/app
+   # ports:
+      # - "0.0.0.0:8000:8000"
    # command: bash -c "python lendingbot.py"
    environment:
       - API_KEY='add_your_own_key'

@@ -3,11 +3,11 @@ services:
   bot:
    image: janruehling/poloniexlendingbot
    restart: always
-   working_dir: /usr/src/app/
+   working_dir: /usr/src/poloniexlendingbot/
    ports:
-   - "0.0.0.0:8000:8000"
+      - "0.0.0.0:8000:8000"
    volumes:
-   - "/usr/src/poloniexlendingbot:/usr/src/app"
+      - "$(pwd):/usr/src/poloniexlendingbot"
    command: bash -c "pip --no-cache-dir install -r requirements.txt && python lendingbot.py"
    environment:
       - API_KEY='add_your_own_key'

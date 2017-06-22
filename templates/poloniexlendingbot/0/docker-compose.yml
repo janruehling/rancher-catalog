@@ -7,4 +7,8 @@ services:
    - "8000:8000"
    command: bash -c "python lendingbot.py"
    environment:
-      - USE_TELEGRAM=False
+   - API_KEY
+   - API_SECRET
+   - USE_TELEGRAM
+   - TELEGRAM_ID
+   - TELEGRAM_CHATS

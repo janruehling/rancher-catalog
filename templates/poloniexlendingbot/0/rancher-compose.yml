@@ -19,6 +19,12 @@ catalog:
         Enter your API secret from Poloniex
       required: true
       type: string
+    - variable: AUTO_TRANSFER
+      label: Auto Transfer
+      type: string
+      description: |
+        Enter the short name of the currency (BTC, ETH) or ACTIVE if you want to transfer all currencies that were active when you started the bot
+      default: 'ACTIVE'
     - variable: USE_TELEGRAM
       label: Do you want to use Telegram?
       description: |

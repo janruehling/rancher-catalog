@@ -12,3 +12,4 @@ services:
    - USE_TELEGRAM
    - TELEGRAM_ID
    - TELEGRAM_CHATS
+   - AUTO_TRANSFER

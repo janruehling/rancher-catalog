@@ -1,4 +1,4 @@
-version: '3'
+version: '2'
 catalog:
   name: Poloniex Lendingbot # Name of the versioned template of the Catalog Entry
   version: 1.0.0 # Version of the versioned template of the Catalog Entry

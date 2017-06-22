@@ -1,0 +1,21 @@
+version: '2'
+services:
+  yourls:
+    image: mitcdh/yourls/
+    restart: always
+    links:
+    - yourlsdb:mysql
+    ports:
+    - "2015:2015"
+    environment:
+    - YOURL_USER
+    - YOURL_PASSWORD
+    - YOURLS_SITE
+    - REDIRECT_SITE
+
+  yourlsdb:
+    image: mysql
+    restart: always
+    environment:
+    - DB_NAME
+    - DB_PASSWORD

@@ -1,0 +1,8 @@
+name: Yourls
+description: |
+  Your own url shortener
+version: 1.0.0
+category: Web
+maintainer: janruehling@gmail.com
+license: MIT
+projectURL: https://github.com/YOURLS/YOURLS

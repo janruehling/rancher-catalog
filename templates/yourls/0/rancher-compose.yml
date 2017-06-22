@@ -1,0 +1,46 @@
+version: '2'
+catalog:
+  name: Yourls
+  version: 1.0.0
+  description: YOURLS on Rancher
+  minimum_rancher_version: v1.6.2
+  maximum_rancher_version: v1.6.2
+  upgrade_from: 1.0.0
+  questions:
+    - variable: DB_NAME
+      label: Database Name
+      description: |
+        Please choose a name
+      required: true
+      default: 'yourls'
+      type: string
+    - variable: DB_PASSWORD
+      label: Database Password
+      description: |
+        Please choose a secure password
+      required: true
+      type: string
+    - variable: YOURLS_SITE
+      label: Yourls Domain
+      description: |
+        Nice and short
+      required: true
+      type: string
+      default: 'http://short.tdl'
+    - variable: REDIRECT_SITE
+      label: Redirect Site
+      description: |
+        Where should visitors with a wrong link be redirected to
+      type: string
+    - variable: YOURL_USER
+      label: Yourl username
+      description: |
+        Please choose a name
+      required: true
+      type: string
+    - variable: YOURL_PASSWORD
+      label: Yourls password
+      description: |
+        Please choose a secure password
+      required: true
+      type: string

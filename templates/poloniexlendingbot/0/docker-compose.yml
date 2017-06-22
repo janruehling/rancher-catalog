@@ -1,12 +1,10 @@
-version: '2'
+version: '3'
 services:
   bot:
    image: janruehling/poloniexlendingbot
    restart: always
-   working_dir: /usr/src/app
    ports:
-   - 8000:8000
-   # command: bash -c "python lendingbot.py"
+   - "8000:8000"
    environment:
    - API_KEY
    - API_SECRET

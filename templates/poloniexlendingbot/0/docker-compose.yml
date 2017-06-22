@@ -9,6 +9,6 @@ services:
    environment:
    - API_KEY
    - API_SECRET
-   - USE_TELEGRAM=False
+   - USE_TELEGRAM
    - TELEGRAM_ID
    - TELEGRAM_CHATS

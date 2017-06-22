@@ -22,16 +22,15 @@ catalog:
     - variable: USE_TELEGRAM
       label: Do you want to use Telegram?
       description: |
-        Set true or false
       type: boolean
       default: false
     - variable: TELEGRAM_ID
       label: Telegram Bot ID
       description: |
-        Enter the bot ID that you got from Telegram
+        Enter the bot ID that you got from Telegram. This is required if you use Telegram
       type: string
     - variable: TELEGRAM_CHATS
       label: Telegram chat ids
       description: |
-        Enter the chat ids as a comma-separated list
+        Enter the chat ids as a comma-separated list. This is required if you use Telegram
       type: string

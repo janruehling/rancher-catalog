@@ -14,11 +14,6 @@ catalog:
       required: true
       type: string
       default: 'http://short.tdl'
-    - variable: REDIRECT_SITE
-      label: Redirect Site
-      description: |
-        Where should visitors with a wrong link be redirected to
-      type: string
     - variable: YOURL_USER
       label: Yourl username
       description: |

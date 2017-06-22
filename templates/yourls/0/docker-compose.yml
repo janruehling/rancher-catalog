@@ -17,5 +17,6 @@ services:
     image: mysql
     restart: always
     environment:
+    - MYSQL_ROOT_PASSWORD
     - DB_NAME
     - DB_PASSWORD

@@ -22,8 +22,12 @@ catalog:
     - variable: USE_TELEGRAM
       label: Do you want to use Telegram?
       description: |
-      type: boolean
-      default: false
+        Choose if you want to use Telegram or not
+      type: enum
+      options
+      - True
+      - False
+      default: False
     - variable: TELEGRAM_ID
       label: Telegram Bot ID
       description: |

@@ -24,7 +24,7 @@ catalog:
       description: |
         Choose if you want to use Telegram or not
       type: enum
-      options
+      options:
       - True
       - False
       default: False

@@ -8,8 +8,8 @@ services:
    - 8000:8000
    # command: bash -c "python lendingbot.py"
    environment:
-   - API_KEY='add_your_own_key'
-   - API_SECRET='get_your_secret_from_poloniex'
+   - API_KEY
+   - API_SECRET
    - USE_TELEGRAM=False
-   - TELEGRAM_BOT_ID='get_telegram_bot_id'
-   - TELEGRAM_CHAT_IDS='comma_seperated_chat_ids'
+   - TELEGRAM_ID
+   - TELEGRAM_CHATS

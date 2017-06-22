@@ -6,7 +6,7 @@ services:
     links:
     - mauticdb:mysql
     ports:
-    - "5000:80"
+    - "80:80"
 
   mauticdb:
     image: mysql:5.6

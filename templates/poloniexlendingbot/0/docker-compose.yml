@@ -6,3 +6,5 @@ services:
    ports:
    - "8000:8000"
    command: bash -c "python lendingbot.py"
+   environment:
+      - USE_TELEGRAM=False

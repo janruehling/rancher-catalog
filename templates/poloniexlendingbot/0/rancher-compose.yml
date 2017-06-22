@@ -25,9 +25,9 @@ catalog:
         Choose if you want to use Telegram or not
       type: enum
       options:
-      - 'true'
-      - 'false'
-      default: 'false'
+      - True
+      - False
+      default: False
     - variable: TELEGRAM_ID
       label: Telegram Bot ID
       description: |

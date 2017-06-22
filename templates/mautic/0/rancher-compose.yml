@@ -1,0 +1,15 @@
+version: '2'
+catalog:
+  name: Mautic
+  version: 1.0.0
+  description: Mautic on Rancher
+  minimum_rancher_version: v1.6.2
+  maximum_rancher_version: v1.6.2
+  upgrade_from: 1.0.0
+  questions:
+    - variable: MYSQL_ROOT_PASSWORD
+      label: MySQL Root Password
+      description: |
+        Please choose a secure root password
+      required: true
+      type: string

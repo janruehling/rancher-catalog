@@ -1,0 +1,8 @@
+name: Mautic
+description: |
+  Mautic Marketing Automation
+version: 1.0.0
+category: Marketing
+maintainer: janruehling@gmail.com
+license: MIT
+projectURL: https://github.com/mautic/mautic

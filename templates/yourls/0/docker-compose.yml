@@ -1,7 +1,7 @@
 version: '2'
 services:
   yourls:
-    image: mitcdh/yourls/
+    image: mitcdh/yourls
     restart: always
     links:
     - yourlsdb:mysql

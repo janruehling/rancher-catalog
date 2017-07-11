@@ -1,0 +1,9 @@
+version: '2'
+services:
+  znc:
+    image: znc
+    restart: always
+    volumes:
+    - /znc-data
+    ports:
+    - "6697:6697"

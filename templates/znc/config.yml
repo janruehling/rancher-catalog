@@ -1,0 +1,8 @@
+name: ZNC
+description: |
+  An IRC bouncer
+version: 1.0.0
+category: IRC
+maintainer: janruehling@gmail.com
+license: MIT
+projectURL: https://github.com/znc/znc-docker
